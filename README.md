@@ -12,7 +12,7 @@ Ableton Live stores file paths as absolute references within `.als` project file
 
 - 🔍 **Preview Mode**: See what changes will be made without modifying files
 - 🔄 **Bulk Migration**: Process dozens or hundreds of projects at once
-- 💾 **Smart Backup**: Automatically backup entire project directories before making changes
+- 💾 **Backup**: Backup entire project directories before making changes
 - 🎯 **Pattern Matching**: Replace any text pattern, not just file paths
 - 📊 **Detailed Reporting**: See exactly which files were modified and how many references were updated
 - 🛡️ **Safe Operation**: Built-in validation and cleanup of temporary files
