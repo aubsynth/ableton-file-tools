@@ -19,6 +19,38 @@ Ableton Live stores file paths as absolute references within `.als` project file
 
 ## Installation
 
+### Option 1: Download ZIP (Recommended for most users)
+
+If you only need the tool and don't plan to contribute to development:
+
+1. **Download the repository as a ZIP file:**
+   - Go to https://github.com/aubsynth/ableton-file-tools
+   - Click the green "Code" button
+   - Select "Download ZIP"
+   - Extract the ZIP file to your desired location
+
+2. **Navigate to the extracted folder:**
+```bash
+cd ableton-file-tools-main
+```
+
+3. **Make the script executable:**
+```bash
+chmod +x migrate.sh
+```
+
+4. **Create your configuration file (optional):**
+```bash
+# Edit the vars.env file with your specific paths
+nano vars.env
+```
+
+> **Note:** You only need the `migrate.sh` script and optionally the `vars.env` file to use this tool. All other files are for documentation and development.
+
+### Option 2: Git Clone (For developers)
+
+If you want to contribute or keep the repository updated:
+
 1. Clone this repository:
 ```bash
 git clone https://github.com/aubsynth/ableton-file-tools.git
@@ -30,10 +62,10 @@ cd ableton-file-tools
 chmod +x migrate.sh
 ```
 
-3. Create your configuration file (optional):
+3. **Create your configuration file (optional):**
 ```bash
-cp vars.env.example vars.env
-# Edit vars.env with your specific paths
+# Edit the vars.env file with your specific paths
+nano vars.env
 ```
 
 ## Configuration
